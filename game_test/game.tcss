@@ -1,0 +1,30 @@
+GameContainer {
+    layout: grid;
+    grid-size: 4 1;
+    grid-rows: 1fr;
+    grid-columns: 1fr;
+    grid-gutter: 0;
+}
+
+Game {
+    color: auto;
+    background: #c4c2d1;
+    height: 100%;
+    padding: 0 0;
+
+    row-span: 1;
+    column-span: 3;
+
+}
+
+
+RichLog {
+    color: auto;
+    background: #131314;
+    height: 100%;
+    padding: 0 0;
+    row-span: 1;
+    column-span: 1;
+
+}
+
